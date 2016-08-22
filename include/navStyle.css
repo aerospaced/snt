@@ -1,0 +1,112 @@
+
+#container {
+	width: 300px;
+	_overflow: visible;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#nav {
+	width: 280px;
+	float: left;
+	margin: 40px 0 0 0;
+	overflow: visible;
+}
+#navList li {
+	list-style: none;
+	margin: 0 0 10px 0;
+	position: relative;
+	float: left;
+}
+#navList a {
+	text-decoration: none;
+	color: #ff0022;
+	font-size: 16px;
+	background-repeat: repeat-y;
+	padding: 5px;
+	border: 1px #4f9bd9 solid;
+	-webkit-box-shadow: 3px 3px 5px #283958;
+	-moz-box-shadow: 3px 3px 5px #283958;
+	box-shadow: 3px 3px 5px #283958;
+	display: block;
+	width: 200px; 
+}
+#navList a:hover {
+	color: #8FC3EA;
+}
+#navList ul, #navList ul ul {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 120px;
+	background-repeat: repeat-y;
+	border: 1px #4f9bd9 solid;
+	-webkit-box-shadow: 3px 3px 5px #283958;
+	-moz-box-shadow: 3px 3px 5px #283958;
+	box-shadow: 3px 3px 5px #283958;
+}
+
+#navList1 li {
+	list-style: none;
+	margin: 0 0 10px 0;
+	position: relative;
+	float: left;
+}
+#navList1 a {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 16px;
+	background-image: url(../img/navBack.jpg);
+	background-repeat: repeat-y;
+	padding: 5px;
+	border: 1px #4f9bd9 solid;
+	-webkit-box-shadow: 3px 3px 5px #283958;
+	-moz-box-shadow: 3px 3px 5px #283958;
+	box-shadow: 3px 3px 5px #283958;
+	display: block;
+	width: 160px;  
+}
+#navList1 a:hover {
+	color: #8FC3EA;
+}
+#navList1 ul, #navList ul ul {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 120px;
+	background-repeat: repeat-y;
+	border: 1px #4f9bd9 solid;
+	-webkit-box-shadow: 3px 3px 5px #283958;
+	-moz-box-shadow: 3px 3px 5px #283958;
+	box-shadow: 3px 3px 5px #283958;
+}
+.listTab {
+	z-index: 100;
+}
+#navList .listTab li {
+	margin: 0 0 0 0;
+}
+#navList .listTab a, #navList .listTab a:hover {
+	background-image: none;
+	border: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	width: 200px;
+}
+#navList .listTab a {
+	padding: 5px 5px 5px 5px;
+}
+#navList li:hover ul ul, #navList li:hover ul ul ul, #navList li:hover ul ul ul ul {
+	display: none;
+}
+#navList li:hover ul, #navList li li:hover ul, #navList li li li:hover ul, #navList li li li li:hover ul {
+	display: block;
+}
+
+.byline {
+	font-size: 12px;
+}
